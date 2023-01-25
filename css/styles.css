@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Comic Sans MS", serif;
+
+}
+
+h1 {
+  text-align: center;
+  margin: 2% 0;
+  font-size: 175%;
+  font-family: 'Source Serif 4', serif;
+}
+
+/* Title */
+.title {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 150px;
+  border: 1px solid #333;
+  text-align: center;
+  font-size: 125%;
+  font-family: 'Source Serif 4', serif;
+  color: white;
+}
+
+#chicken {
+  background-color: #581526;
+}
+
+#beef {
+  background-color: #581526;  
+}
+
+#sushi {
+  background-color: #581526;
+
+}
+
+.main-container {
+  margin-left:10px;
+  margin-right: 10px;
+}
+.container {
+  position: relative;
+  background-color:#fff3e3;  
+  padding: 2.5em 1em 1em;
+  border: 1px solid #333;
+  font-size: 100%;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .col-lg-4 {
+      float: left;
+      padding: 10px;
+    }
+
+    .col-lg-4 {
+      width: 33.33%;
+    }
+  }
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+        float: left;
+        padding: 10px;
+    }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}        
+
+/* Mobile */
+@media (max-width: 767px) {
+  .col-mobile {
+    float: left;
+    padding: 10px;
+}
+
+.col-mobile {
+  width: 100%;
+}
+}
